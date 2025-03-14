@@ -22,8 +22,6 @@ def main_movie():
     movie_name = movie_name.lower()
     movie_name = movie_name.replace(" ", "-")
 
-    # tries making request to BASE_LINK_2
-
     new_request_url = BASE_LINK_2 + movie_name
 
     # checks if http request was successful or not (200 means yes)
